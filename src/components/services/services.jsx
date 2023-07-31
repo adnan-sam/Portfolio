@@ -15,23 +15,23 @@ const Services = () => {
                 <ul className='service_list'>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Proficient in Figma and other design tools.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Crafting user-friendly and visually appealing designs.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Developing engaging prototypes using Figma.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Creating adaptable solutions for different devices.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p> Improving usability with effective designs.</p>
                     </li>
                 </ul>
             </article>
@@ -43,23 +43,23 @@ const Services = () => {
                 <ul className='service_list'>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Crafting intuitive, engaging user interfaces..</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Creating adaptable websites for all devices.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Developing engaging elements for user interaction.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Enhancing site speed and efficiency.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Ensuring consistency across various browsers.</p>
                     </li>
                 </ul>
             </article>
@@ -71,23 +71,23 @@ const Services = () => {
                 <ul className='service_list'>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Capturing impactful and visually stunning photographs.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Creating cinematic and storytelling-focused videos.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Crafting narratives with impactful cinematography.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Enhancing content with imaginative editing techniques.</p>
                     </li>
                     <li>
                         <BiCheck className='service_list-icon'/>
-                        <p>Lorem ipsum donor sit amet conecrros eluit.</p>
+                        <p>Delivering versatile content for diverse platforms.</p>
                     </li>
                 </ul>
             </article>

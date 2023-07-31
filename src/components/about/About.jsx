@@ -21,11 +21,11 @@ const About = () => {
         </div>
 
         <div className='about_content'>
-          <div className='about_cards'>
+          {/* <div className='about_cards'>
             <article className='about_card'>
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Months</small>
             </article>
 
             <article className='about_card'>
@@ -37,9 +37,9 @@ const About = () => {
             <article className='about_card'>
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
-          </div>
+          </div> */}
 
           <p>
           Hello, my name is Adnan Sameer, I'm currently pursuing Bachelor of Technology, majoring in Computer Science Engineering at Meghnad Saha Institute of Technology. I'm obsessed with making things and even more obsessed with making things better.

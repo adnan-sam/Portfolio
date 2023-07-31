@@ -1,0 +1,14 @@
+.list-ul {
+    margin: 1rem 0;
+}
+.list-li {
+    margin: 0.5rem 0 0 1.5rem;
+    list-style-type: disc;
+    font-size: 0.9rem;
+}
+.score {
+    margin: 0.5rem 0;
+}
+.title {
+    font-size: 0.5rem;
+}

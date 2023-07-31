@@ -79,7 +79,7 @@
     color: var(--color-light);
 }
 .switches-container label:hover {
-    color: var(--color-white);
+    color: #eeee;
 }
 
 .switch-wrapper {
@@ -94,7 +94,7 @@
 }
 .switch {
     border-radius: 3rem;
-    background: var(--color-primary);
+    background: var(--color-bg-variant);
     height: 100%;
 }
 .switch div {
@@ -103,7 +103,7 @@
     opacity: 0;
     display: block;
     /* ======= Yaha par wo toggle ka color change krskte hai ==== */
-    color: var(--color-bg-variant); 
+    color: #ffff; 
     font-weight: 500;
     transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
     will-change: opacity;
