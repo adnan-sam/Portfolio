@@ -17,7 +17,7 @@
   --color-primary: #eeee;
   --color-primary-variant: rgba(77,181,255,0.4);
   --color-white: #eeee;
-  --color-light: rgba(255,255,255,0.6); /*Don't change*/
+  --color-light: rgba(255,255,255,0.6);
 }
 #light body {
   color: white;
@@ -25,12 +25,12 @@
 }
 #dark {
   color: #E2E3EB;
-  --color-bg: #272829; /*Don't change*/
+  --color-bg: #272829;
   --color-bg-variant: #5C3AF7;
   --color-primary: linear-gradient(180deg, rgb(135,68,255), rgb(74,54,244));
   --color-primary-variant: rgb(135,68,255);
   --color-white:  rgb(135,68,255);
-  --color-light: rgba(255,255,255,0.6); /*Don't change*/
+  --color-light: rgba(255,255,255,0.6);
   background: linear-gradient(180deg, rgb(15,14,24), #0f0e18);
 }
 
@@ -40,6 +40,18 @@
 }
 
 :root {
+  /* --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77,181,255,0.4);
+  --color-white: #fff;
+  --color-light: rgba(255,255,255,0.6); */
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
