@@ -28,7 +28,7 @@ function App() {
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <div className="App" id={theme}>
-        <DayNightToggle className='day-night' onClick={toggleTheme} onChange={() => setIsDarkMode(!isDarkMode)} checked={isDarkMode}/>
+        {/* <DayNightToggle className='day-night' onClick={toggleTheme} onChange={() => setIsDarkMode(!isDarkMode)} checked={isDarkMode}/> */}
         <Header/>
         <Nav/>
         <About/>
