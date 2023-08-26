@@ -7,7 +7,6 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Services from './components/services/services';
 import Achievement from './components/achievement/Achievement';
-import ContactChat from './components/contact/ContactChat';
 import Work from './components/work/Work';
 import DayNightToggle from 'react-day-and-night-toggle'
 

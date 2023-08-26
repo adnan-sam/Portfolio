@@ -10,18 +10,31 @@ import TICK from '../../assets/images/check-tick-icon-14141.png';
 const Contact = () => {
   const form = useRef();
   const [showPopup, setShowPopup] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [p_value, set_p_value] = useState('');
+  const [success, setSuccess] = useState(true);
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setIsLoading(true);
     emailjs.sendForm('service_ww6qgbi', 'template_vyy01rq', form.current, 'FEQhZiwHmGgNPv_BL')
       .then((result) => {
           // console.log(result.text);
-          setShowPopup(true);
+          // setShowPopup(true);
+          setSuccess(true);
+          set_p_value("Message successfully sent to Adnan Sameer");
+          setIsLoading(false);
+
       }, (error) => {
+          setSuccess(false);
+          set_p_value("Message could not sent to Adnan Sameer");
           console.log(error.text);
+          setIsLoading(false);
       });
-      setShowPopup(true);
+      setTimeout(() => {
+        set_p_value('');
+      }, 6000);
+      // setShowPopup(true);
       e.target.reset();
   };
   
@@ -56,17 +69,13 @@ const Contact = () => {
           <input type='text' name='name' placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='Your Email' required/>
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea> 
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          <button type='submit' className={`btn btn-primary ${isLoading===true ? 'loading':''}`}>
+            <span className="label">Send Message</span>
+            <span className="spinner"></span>
+          </button>
         </form>
         {/* Popup */}
-        {showPopup && (
-          <div className='popup'>
-            <img className='image' src={TICK}/>
-            <h2>Thank You!</h2>
-            <p>Your message has been successfully sent to Adnan. Thanks!</p>
-            <button className='btn btn-primary popup-btn' onClick={() => setShowPopup(false)}>OK</button>
-          </div>
-        )}
+        <p style={{ color: success === true ? '#32cd32' : '#c1b001', margin: 'auto' }}>{p_value}</p>
       </div>
     </section>
   )

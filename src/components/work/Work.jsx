@@ -12,17 +12,19 @@ const Work = () => {
     <section id="Education">
         <h5>What I'm Pursuing</h5>
         <h2>My Qualifications</h2>
-        <VerticalTimeline>
+        <VerticalTimeline
+            lineColor={'rgba(255,255,255,0.6)'}
+        >
             {
                 workData.map((item) => {
                     return(
                         <VerticalTimelineElement
                             key={item.id}
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            contentStyle={{ background: '#2c2c6c', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgba(255,255,255,0.6)' }}
                             date={item.duration}
-                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            iconStyle={{ background: '#2c2c6c', color: '#fff' }}
                             icon={item.icon}
                         >
                         <h3 className="vertical-timeline-element-title">{item.name}</h3>
