@@ -1,3 +1,7 @@
+#light nav {
+    background: var(--second-color);
+}
+
 nav {
     background: rgba(0,0,0,0.3);
     width: max-content;
@@ -13,7 +17,9 @@ nav {
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
-
+#light nav a {
+    color: var(--color-white);
+}
 nav a {
     background: transparent;
     padding: 0.9rem;
@@ -22,11 +28,16 @@ nav a {
     color: var(--color-light);
     font-size: 1.1rem;
 }
-
+#light nav a:hover {
+    background-color: rgba(0,0,0,1);
+}
 nav a:hover {
     background-color: rgba(0,0,0,0.3);
 }
-
+#light nav a.active {
+    background: var(--first-color);
+    color: var(--second-color);
+}
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);

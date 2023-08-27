@@ -3,6 +3,18 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+#light .experience_container > div {
+    background: var(--first-color);
+}
+#light .experience_container > div:hover {
+    background: var(--second-color);
+}
+#light .experience_container > div h3 {
+    color: var(--color-white);
+}
+#light .experience_container > div h4 {
+    color: var(--color-white);
+}
 .experience_container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;

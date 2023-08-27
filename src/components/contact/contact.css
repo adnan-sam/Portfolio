@@ -12,6 +12,13 @@
     gap: 1.2rem;
 }
 
+#light .contact_option {
+    background: var(--first-color);
+}
+#light .contact_option:hover {
+    background: transparent;
+}
+
 .contact_option {
     background: var(--color-bg-variant);
     padding: 1.2rem;
@@ -30,11 +37,16 @@
     font-size: 1.5rem;
     margin: 0.5rem;
 }
-
 .contact_option a {
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+}
+#light .contact_option a {
+    color: var(--color-white);
+}
+#light .contact_option a:hover {
+    color: var(--second-color);
 }
 
 /* ========= FORM =========== */
@@ -43,7 +55,14 @@ form {
     flex-direction: column;
     gap: 1.2rem;
 }
-
+#light input {
+    color: var(--second-color);
+    font-weight: 500;
+}
+#light textarea {
+    color: var(--second-color);
+    font-weight: 500;
+}
 input, textarea {
     font-family: 'Poppins','Montserrat','sans-serif';
     width: 100%;

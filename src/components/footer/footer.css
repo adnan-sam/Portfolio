@@ -1,3 +1,7 @@
+#light footer {
+    background: var(--second-color);
+}
+
 footer {
     background: var(--color-bg);
     padding: 3rem 0;
@@ -40,6 +44,9 @@ footer a {
     display: flex;
     border: 1px solid transparent;
 }
+#light .footer_socials a:hover {
+    border-color: var(--color-white);
+}
 .footer_socials a:hover {
     background: transparent;
     color: var(--color-white);
@@ -49,7 +56,7 @@ footer a {
     color: var(--color-light);
 }
 .link:hover {
-    color: var(--color-);
+    color: var(--color-white);
 }
 .footer_copyright {
     margin-bottom: 4rem;
