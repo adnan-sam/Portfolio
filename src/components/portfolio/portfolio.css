@@ -8,14 +8,23 @@
     gap: 2.5rem;
 }
 #light .portfolio_item {
-    background: var(--first-color);
-}
-#light .portfolio_item:hover {
     border-color: var(--second-color);
     background: transparent;
 }
+#light .portfolio_item:hover {
+    background: var(--first-color);
+    color: #eeee;
+}
+#light .portfolio_item:hover .btn {
+    border-radius: 20px;
+    margin-left: 10%;
+}
 #light .portfolio_item .btn {
-    border-color: var(--second-color)
+    border-color: var(--second-color);
+}
+#light .portfolio_item .btn-primary {
+    background: transparent;
+    border-color: var(--second-color);
 }
 .portfolio_item {
     background: var(--color-bg-variant);

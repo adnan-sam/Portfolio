@@ -21,10 +21,10 @@ const Work = () => {
                         <VerticalTimelineElement
                             key={item.id}
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: '#2c2c6c', color: '#fff' }}
-                            contentArrowStyle={{ borderRight: '7px solid  rgba(255,255,255,0.6)' }}
+                            contentStyle={{ background: 'var(--color-work-bg)', color: 'var(--color-work-text)' }}
+                            contentArrowStyle={{ borderRight: '7px solid  var(--color-work-bg)' }}
                             date={item.duration}
-                            iconStyle={{ background: '#2c2c6c', color: '#fff' }}
+                            iconStyle={{ background: 'var(--color-work-bg)', color: 'var(--color-work-text)' }}
                             icon={item.icon}
                         >
                         <h3 className="vertical-timeline-element-title">{item.name}</h3>

@@ -45,24 +45,27 @@ const Contact = () => {
 
       <div className='container contact_container'>
         <div className='contact_options'>
-          <article className='contact_option'>
+          <a href='mailto:adnansameer400@gmail.com' target='_blank' className='contact_option'>
             <MdOutlineEmail className='contact_option-icon'/>
             <h4>Email</h4>
             {/* <h5>adnansameer400@gmail.com</h5> */}
-            <a href='mailto:adnansameer400@gmail.com' target='_blank'>Send a message</a>
-          </article>
-          <article className='contact_option'>
+            {/* <a href='mailto:adnansameer400@gmail.com' target='_blank'>Send a message</a> */}
+            <p>Send a message</p>
+          </a>
+          <a href='https://www.linkedin.com/in/adnan-sameer-199ba1223' target='_blank' className='contact_option'>
             <BsLinkedin className='contact_option-icon'/>
             <h4>Linkedin</h4>
             {/* <h5>Adnan Sameer</h5> */}
-            <a href='https://www.linkedin.com/in/adnan-sameer-199ba1223' target='_blank'>Send a message</a>
-          </article>
-          <article className='contact_option'>
+            {/* <a href='https://www.linkedin.com/in/adnan-sameer-199ba1223' target='_blank'>Send a message</a> */}
+            <p>Send a message</p>
+          </a>
+          <a href='https://t.me/adnan_sam2001' target='_blank' className='contact_option'>
             <BiLogoTelegram className='contact_option-icon'/>
             <h4>Telegram</h4>
             {/* <h5>Adnan Sameer</h5> */}
-            <a href='https://t.me/adnan_sam2001' target='_blank'>Send a message</a>
-          </article>
+            {/* <a href='https://t.me/adnan_sam2001' target='_blank'>Send a message</a> */}
+            <p>Send a message</p>
+          </a>
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>

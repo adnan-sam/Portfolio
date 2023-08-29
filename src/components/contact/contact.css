@@ -11,13 +11,33 @@
     flex-direction: column;
     gap: 1.2rem;
 }
+#light .contact_option p {
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+#light .contact_option-icon,h4,a {
+    color: #fff;
+}
 
 #light .contact_option {
     background: var(--first-color);
 }
 #light .contact_option:hover {
     background: transparent;
+    border-color: var(--second-color);
 }
+
+#light .contact_option:hover h4 {
+    color: var(--second-color);
+}
+#light .contact_option:hover p {
+    color: var(--second-color);
+}
+#light .contact_option:hover .contact_option-icon {
+    color: var(--second-color);
+}
+
 
 .contact_option {
     background: var(--color-bg-variant);
@@ -56,10 +76,12 @@ form {
     gap: 1.2rem;
 }
 #light input {
+    border-color: var(--first-color);
     color: var(--second-color);
     font-weight: 500;
 }
 #light textarea {
+    border-color: var(--first-color);
     color: var(--second-color);
     font-weight: 500;
 }
@@ -73,7 +95,9 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
-
+#light .label {
+    color: #fff;
+}
 .btn {
     font-family: 'Poppins','Montserrat','sans-serif';
     font-weight: 500;
