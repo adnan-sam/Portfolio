@@ -8,7 +8,7 @@ import Footer from './components/footer/Footer';
 import Services from './components/services/services';
 import Achievement from './components/achievement/Achievement';
 import Work from './components/work/Work';
-import DayNightToggle from 'react-day-and-night-toggle'
+import {CiCloudSun, CiCloudMoon} from 'react-icons/ci';
 
 import { createContext, useState } from 'react';
 
@@ -16,18 +16,19 @@ export const ThemeContext = createContext(null);
 
 function App() {
 
-  const [theme, setTheme] = useState('dark');
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const [theme, setTheme] = useState('light');
+  const [isDarkMode, setIsDarkMode] = useState(false);
   
   const toggleTheme = () => {
     console.log(theme)
-    setTheme((curr) => (curr=='light' ? 'dark':'light'));
+    setIsDarkMode(!isDarkMode);
+    setTheme((curr) => (curr==='light' ? 'dark':'light'));
   }
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <div className="App" id={theme}>
-        <DayNightToggle className='day-night' onClick={toggleTheme} onChange={() => setIsDarkMode(!isDarkMode)} checked={isDarkMode}/>
+        <div>{isDarkMode ? <CiCloudMoon className='day-night theme-icon' onClick={toggleTheme}/> : <CiCloudSun className='day-night theme-icon' onClick={toggleTheme}/>}</div>
         <Header/>
         <Nav/>
         <About/>
