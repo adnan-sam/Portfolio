@@ -13,7 +13,7 @@ const Work = () => {
         <h5>What I'm Pursuing</h5>
         <h2>My Qualifications</h2>
         <VerticalTimeline
-            lineColor={'rgba(255,255,255,0.6)'}
+            lineColor={'hsl(224, 56%, 12%)'}
         >
             {
                 workData.map((item) => {

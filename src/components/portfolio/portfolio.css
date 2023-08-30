@@ -17,7 +17,7 @@
 }
 #light .portfolio_item:hover .btn {
     border-radius: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 #light .portfolio_item .btn {
     border-color: var(--second-color);
