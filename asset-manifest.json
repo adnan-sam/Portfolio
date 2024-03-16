@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e3bf15af.css",
+    "main.js": "/Portfolio/static/js/main.c6579688.js",
+    "static/media/obstacleAvoiding.png": "/Portfolio/static/media/obstacleAvoiding.14339231990d6e3837cf.png",
+    "static/media/women_safety.png": "/Portfolio/static/media/women_safety.3086bc4816d3a8d9b068.png",
+    "static/media/fishfeeder.png": "/Portfolio/static/media/fishfeeder.0e777a9dd12d3c4db517.png",
+    "static/media/oatsnmeals.png": "/Portfolio/static/media/oatsnmeals.777ac360e64d9cae9528.png",
+    "static/media/dustbin.png": "/Portfolio/static/media/dustbin.a79bd6ce6f39f5d59904.png",
+    "static/media/about-img.png": "/Portfolio/static/media/about-img.edc44c50f873432a58bc.png",
+    "static/media/adnan-pic.png": "/Portfolio/static/media/adnan-pic.b00bd656f205971deb60.png",
+    "static/media/chitchat-prv.png": "/Portfolio/static/media/chitchat-prv.e48018e885e4e86f856c.png",
+    "static/media/Nptel_certificate.jpg": "/Portfolio/static/media/Nptel_certificate.2ba4be32a8df72dc8a4b.jpg",
+    "static/media/AdnanSameer_Resume.pdf": "/Portfolio/static/media/AdnanSameer_Resume.e3e75bc13e3cd711ec41.pdf",
+    "static/media/drum_kit.png": "/Portfolio/static/media/drum_kit.a0a33242ade7b04dd842.png",
+    "static/media/ToDo List.png": "/Portfolio/static/media/ToDo List.b01fc683586fe548869a.png",
+    "static/media/Guess_Me.png": "/Portfolio/static/media/Guess_Me.5169b2b493044841ff32.png",
+    "static/media/check-tick-icon-14141.png": "/Portfolio/static/media/check-tick-icon-14141.cddf3f0919634f0b45d4.png",
+    "static/media/coding_ninjas_oops_1.jpg": "/Portfolio/static/media/coding_ninjas_oops_1.e1729e9276127d8be77f.jpg",
+    "static/media/microsoft_ss.jpg": "/Portfolio/static/media/microsoft_ss.90c87a1906625472be3e.jpg",
+    "static/media/simon_game.png": "/Portfolio/static/media/simon_game.0b2229cd38f84a35f96a.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e3bf15af.css.map": "/Portfolio/static/css/main.e3bf15af.css.map",
+    "main.c6579688.js.map": "/Portfolio/static/js/main.c6579688.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3bf15af.css",
+    "static/js/main.c6579688.js"
+  ]
+}
